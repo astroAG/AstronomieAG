@@ -1,0 +1,62 @@
+
+\documentclass[12pt,a4paper,notitlepage,onecolumn,portrait,oneside, , , ]{scrartcl}
+\usepackage{ngerman, enumitem, amsmath, amssymb, float, hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\title{Nutzung von GitHub}
+	\subtitle{Astro-AG der Liebigschule}
+\author{Patrick Hemberger}
+
+\maketitle
+
+\section{Was ist GitHub?}
+GitHub ist eine Online-Versionsverwaltung, das das Versionskontrollsystem \textit{git} verwendet. Damit ist es möglich, Dateien oder ein Projekt zentral zu verwalten, sodass bei mehreren Bearbeitern (im folgenden: Contributor) keine Verwirrung entsteht, wer jetzt von welcher Datei die aktuellste Version auf seinem Rechner hat, und wie man es jetzt schafft, ohne Verlust alle aktuellen Dateien an einem zu sammeln.Eine Instanz dieser Versionsverwaltung wird \textit{Repository} genannt, kurz \textit{Repo}.
+
+\section{Nutzung von Github}
+\subsection{Webtool}
+Man kann sich online auf \url{github.com} einloggen. Die Login-Daten zu unserem Git-Repository befinden sich auf dem gesonderten Logindatenblatt. Man kann online einsehen, welche Dateien zuletzt geändert oder hinzugefügt wurden. Es ist möglich, sich, sofern man einen GitHub-Account besitzt, selbst als Contributor einzutragen, allerdings möge man in diesem Fall bitte seinen Namen, Nutzernamen, eine regelmäßig abgerufene Mailadresse, sowie die eigene Mitgliedszeit in der AG im vorhandenen Tabellendokument eintragen, damit jeder einen Überblick behält, wer hier mitarbeiten kann.
+
+\subsection{Verwaltung mit einem Terminal (Linux)}
+\begin{enumerate}[label=\arabic*.]
+\item Um ein Repo zu bearbeiten, musst du es zunächst in ein \textit{lokales Repo} klonen. Das geschieht folgendermaßen:
+\begin{enumerate}[label=(\alph*)]
+\item Rufe über die Menüleiste ein \textit{Terminal} auf. Darin kannst du Befehle schreiben. Wechsele in den Ordner, in den du das Repo klonen möchtest. Nutze dazu die Befehle \textbf{\textit{cd <Ordner>}} (In der lokalen Ordnerstruktur eine Ebene tiefer, um in den gewählten <Ordner> zu springen) und \textbf{\textit{cd ..}} (In der lokalen Ordnerstruktur eine Ebene höher springen.)
+\item Rufe den Befehl \textbf{\textit{git clone https://github.com/astroAG/AstronomieAG ''<Name>''}} auf. \textbf{Beachte:} Der Zusatz ''<Name>'' bezeichnet den Ordner, indem sich nachher das gesamte lokale Repo befindet (z.B. "AstroGIT" für den Ordner AstroGIT). Wird <Name> weggelassen, so wird der Ordner ebenfalls erstellt, erhält allerdings die Bezeichnung unseres Repos auf GitHub (also AstronomieAG).
+\end{enumerate}
+\item Nachdem du unser Repo geklont hast, kannst du dir jederzeit seinen Status anschauen. Dazu rufst du den Befehl \textbf{\textit{git status}} auf. Wenn dein lokales Repo mit dem Online-Repo vollständig übereinstimmt, so  gibt das Terminal ''Already up-to-date'' aus.
+\item git pull
+\item git add
+\item git commit -m ''<Commit-Nachricht>''
+\item git push
+\end{enumerate}
+
+\subsection{Verwaltung mit einer Windows-Shell}
+\textbf{kommt (hoffentlich) noch}
+
+%Seitenumbruch, wenn keine volle Aufgabe mehr aufs Blatt passt.
+%\pagebreak
+
+%Tabellenvorlage
+%\begin{center}
+%\begin{tabular}{|ll|...}
+%vor erster Zeile obere Umrandung
+%\hline
+%Überschriften der Spalten:
+%US1 & US2 ...\\ \hline
+%Spalteninhalte:
+%IS1 & IS2  \\ 
+%nach letzter Zeile untere Umrandung
+%\hline
+%\end{tabular}
+%\end{center}
+
+%horizontal ausgerichtete mathematische Umgebung 
+%\begin{align*}
+%	a &= b \\
+%	%
+%\end{align*}
+
+\end{document}
