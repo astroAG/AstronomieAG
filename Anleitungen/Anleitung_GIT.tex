@@ -6,7 +6,7 @@
 
 \begin{document}
 
-\title{Nutzung von GitHub}
+\title{Anleitung: GitHub}
 	\subtitle{Astro-AG der Liebigschule}
 \author{Patrick Hemberger}
 
@@ -24,9 +24,9 @@ Man kann sich online auf \url{github.com} einloggen. Die Login-Daten zu unserem 
 \item Um ein Repo zu bearbeiten, musst du es zunächst in ein \textit{lokales Repo} klonen. Das geschieht folgendermaßen:
 \begin{enumerate}[label=(\alph*)]
 \item Rufe über die Menüleiste ein \textit{Terminal} auf. Darin kannst du Befehle schreiben. Wechsele in den Ordner, in den du das Repo klonen möchtest. Nutze dazu die Befehle \textbf{\textit{cd <Ordner>}} (In der lokalen Ordnerstruktur eine Ebene tiefer, um in den gewählten <Ordner> zu springen) und \textbf{\textit{cd ..}} (In der lokalen Ordnerstruktur eine Ebene höher springen.)
-\item Rufe den Befehl \textbf{\textit{git clone https://github.com/astroAG/AstronomieAG ''<Name>''}} auf. \textbf{Beachte:} Der Zusatz ''<Name>'' bezeichnet den Ordner, indem sich nachher das gesamte lokale Repo befindet (z.B. "AstroGIT" für den Ordner AstroGIT). Wird <Name> weggelassen, so wird der Ordner ebenfalls erstellt, erhält allerdings die Bezeichnung unseres Repos auf GitHub (also AstronomieAG).
+\item Rufe den Befehl \textbf{\textit{git clone https://github.com/astroAG/AstronomieAG.git ''<Name>''}} auf. \textbf{Beachte:} Der Zusatz ''<Name>'' bezeichnet den Ordner, indem sich nachher das gesamte lokale Repo befindet (z.B. "AstroGIT" für den Ordner AstroGIT). Wird <Name> weggelassen, so wird der Ordner ebenfalls erstellt, erhält allerdings die Bezeichnung unseres Repos auf GitHub (also AstronomieAG).
 \end{enumerate}
-\item Nachdem du unser Repo geklont hast, kannst du dir jederzeit seinen Status anschauen. Dazu rufst du den Befehl \textbf{\textit{git status}} auf. Wenn dein lokales Repo mit dem Online-Repo vollständig übereinstimmt, so  gibt das Terminal ''Already up-to-date'' aus.
+\item Nachdem du unser Repo geklont hast, kannst du dir jederzeit seinen Status anschauen. Dazu rufst du den Befehl \textbf{\textit{git status}} auf. Wenn dein lokales Repo mit dem Online-Repo vollständig übereinstimmt, so  gibt das Terminal ''Already up-to-date'' aus. Hast du hingegen beispielsweise Änderungen im lokalen Repo Änderungen vorgenommen, so wird dir dies ebenfalls angezeigt.
 \item git pull
 \item git add
 \item git commit -m ''<Commit-Nachricht>''
