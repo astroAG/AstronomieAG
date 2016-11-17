@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<rss version="0.91">
+	<channel>
+	<title>Astro-AG der Liebigschule Frankfurt am Main</title>
+	<link>http://astro.junetz.de/</link>
+	<description>Alle Neuigkeiten rund um die AG, ihre Projekte und die Webseite.</description>
+	<language>de-de</language>
+
+	<item>
+		<title>Schoene Ferien!</title>
+		<description>Allen Schuelerinnen und Schuelern wuenschen wir jetzt schon einmal schoene
+und erholsame Sommerferien!
+</description>
+		<pubDate>Wed, 01 Jul 2009 15:58:00 +0200</pubDate>
+	</item>
+
+	<item>
+		<title>Beobachtung in der Schule</title>
+		<description>Als Abschluss dieses Schuljahres bietet die AG naechste Woche fuer alle
+Schuelerinnen und Schueler waehrend der Schulzeit (bei geeignetem Wetter)
+eine Sonnenbeobachtung an.
+</description>
+		<pubDate>Wed, 01 Jul 2009 15:58:00 +0200</pubDate>
+	</item>
+
+	<item>
+		<title>Sonnenbeobachtung vor der Alten Oper (Nachtrag)</title>
+		<description>Als Ergaenzung zu dem Zeitungsartikel ueber unsere letzte
+Sonnenbeobachtung vor der Alten Oper, haben wir noch ein paar eigene Bilder
+online gestellt.
+</description>
+		<link>http://astro.junetz.de/berichte/sonnealteoper/</link>
+		<pubDate>Wed, 01 Jul 2009 15:58:00 +0200</pubDate>
+	</item>
+
+	<item>
+		<title>Sonnenbeobachtung vor der Alten Oper</title>
+		<description>Wie letztes Jahr (Bericht unter
+"http://astro.junetz.de/berichte/sonnealteoper/") haben wir wieder unser mobiles Sonnenteleskop (Foto unter
+"http://astro.junetz.de/ausruestung/meade_coronado_pst.JPG") vor der Alten Oper in Frankfurt aufgebaut.
+Diesmal konnten wir nicht nur zahlreichen Besuchern ihren ersten Blick durchs Teleskop ermoeglichen, sondern auch mit Hilfe der Presse auf uns aufmerksam machen. Die Frankfurter Neue Presse schrieb naemlich einen Bericht (mit Foto) ueber uns fuer den Regionalteil. Diesen haben wir in der Rubrik "Public Relation" (http://astro.junetz.de/publicrelation/) auf unserer Webseite veroeffentlicht.
+Alle Besucher dieser Veranstaltung moechten wir ausserdem noch einladen, ihren ganz persoenlichen Artikel zu diesem Ereignis in unserem Gaestebuch (http://astro.junetz.de/gaestebuch/) zu veroeffentlichen.
+</description>
+		<link>http://astro.junetz.de/publicrelation/fnp02jun09/</link>
+		<pubDate>Wed, 10 Jun 2009 17:06:00 +0200</pubDate>
+	</item>
+
+	<item>
+		<title>Sonnenbeobachtung vor der Alten Oper</title>
+		<description>Wir haben heute (30. Mai 2009) die Sonnenbeobachtung -wie wir sie bereits im letzten Sommer angeboten hatten (http://astro.junetz.de/berichte/sonnealteoper/)- wiederholt.
+Und diesmal wurde das Event sogar durch die Presse begleitet. Geplant ist, einen Artikel ab dem 2. Juni 2009 im regionalen Teil der Frankfurter Neuen Presse zu veroeffentlichen.</description>
+		<pubDate>Sat, 30 May 2009 18:56:00 +0200</pubDate>
+	</item>
+	
+	<item>
+		<title>Neuer RSS-Feed</title>
+		<description>Sie koennen alle Aktualisierungen rund um die AG nun auch per RSS-Feed empfangen. Der Inhalt ist identisch zu dem des Newsletters.
+Zum Empfangen der Neuigkeiten per RSS-Feed benoetigen Sie einen speziellen Feed-Reader oder ein Programm, dass das Lesen von Feeds unterstuetzt (z.B. der Browser "Mozilla Firefox").
+Fragen und Anregungen zum neuen RSS-Feed sind erwuenscht! Einfach per E-Mail an "astro@junetz.de" oder in das Gaestebuch (http://astro.junetz.de/gaestebuch/).</description>
+		<link>http://astro.junetz.de/newsletter-rss/</link>
+		<pubDate>Sat, 30 May 2009 18:55:00 +0200</pubDate>
+	</item>
+	
+  </channel>
+</rss>

@@ -1,0 +1,5 @@
+AuthName "Administration der Seite nur Webmastern gestattet!"
+AuthType Basic
+AuthUserFile /home/astro/www/newsletter-rss/administration/.htpasswd
+
+require valid-user

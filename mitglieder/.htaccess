@@ -1,0 +1,5 @@
+AuthName "Bereich nur fuer Mitglieder!"
+AuthType Basic
+AuthUserFile /home/astro/www/mitglieder/.htpasswd
+
+require valid-user

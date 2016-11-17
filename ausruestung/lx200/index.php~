@@ -1,0 +1,20 @@
+<?php
+    $rootdir = "../../";
+    include("../../inhalt/davor.inc.php");
+?>
+
+<div class="page-title">Meade LX200 10"</div>
+
+<div class="page-text">Das LX200 von Meade ist ein computergesteuertes 10 Zoll Schmitt-Cassegrain Teleskop in azimutaler Montierung. Diese kann auch zur Verwendung mit einer CCD-Kamera auf parallaktische Montierung umgebaut werden.<br/>
+Das "first light" war am 18.10.1999. Mit Hilfe des AutoStarGuides können satte 64000 Himmelsobjekte automatisch und binnen Sekunden angesteuert werden. Zusätzlich lässt sich das Teleskop auch mit einem Computer verbinden.<br/><br/>
+Besonderer Dank gehört dafür dem Liebigschulverein, der die Hälfte der erforderlichen Geldmittel zur Verfügung gestellt hatte und Herrn Walter Erbs, der die andere Hälfte über Mittel der Stadt finanzierte. Dadurch hat die Liebigschule ein modernes Instrument, an dem Schüler Ergebnisse erzielen können, die noch in der ersten Hälfte des 20. Jahrhunderts nur an großen Forschungsteleskopen möglich waren.</div>
+
+<?php
+    $pictures = array( "lx200_rechts.jpg", "lx200_links", "lx200_zubehoer" );
+    include( "../../layout/insert_picture-table.php" );
+?>
+
+<?php
+    $rootdir = "../../";
+    include("../../inhalt/dahinter.inc.php");
+?>
