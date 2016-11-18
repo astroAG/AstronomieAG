@@ -28,9 +28,9 @@ Man kann sich online auf \url{github.com} einloggen. Die Login-Daten zu unserem 
 \end{enumerate}
 \item Nachdem du unser Repo geklont hast, kannst du dir jederzeit seinen Status anschauen. Dazu rufst du den Befehl \textbf{\textit{git status}} auf. Wenn dein lokales Repo mit dem Online-Repo vollständig übereinstimmt, so  gibt das Terminal ''Already up-to-date'' aus. Hast du hingegen beispielsweise Änderungen im lokalen Repo Änderungen vorgenommen, so wird dir dies ebenfalls angezeigt.
 \item Um dein lokales Repo auf den aktuellen Stand des Online-Repos zu bringen, wenn ein anderer Contributor zuletzt etwas geändert hat, nutze den Befehl \textbf{\textit{git pull}}. Beachte: Damit könntest du eigene Änderungen zunichte machen. Schau dir, wenn du unsicher bist, zunächst über das Webtool an, welche Dateien verändert wurden, und sichere nötigenfalls Konfliktdateien außerhalb des lokalen Repos, um die Änderungen des anderen Contributors mit deinen manuell zusammenzufühen.
-\item Um eine Datei initial zu versionieren oder zum Commit vorzumerken, verwende den Befehl \textbf{\textit{git add <Datei/Ordner>}}
-\item git commit -m ''<Commit-Nachricht>''
-\item git push hier
+\item Um eine Datei oder einen  Ordner initial zu versionieren oder zum Commit vorzumerken, verwende den Befehl \textbf{\textit{git add <Datei/Ordner>}}.
+\item Nun kommt der Commit. Mit einem Commit fügst du die zuvor mit \textit{git add...} vorgemerkten Dateien und Ordner zu deinem lokalen Repo hinzu. Um einen Commit durchzuführen, verwende den Befehl \textbf{\textit{git commit -m ''<Commit-Nachricht>''}}. Die <Commit-Nachricht ist eine Nachricht, die du anderen Contributors hinterlassen kannst, sodass sie sehen, was du in etwa geändert hast. \textbf{Beachte:} Bevor du einen Commit durchführst, prüfe bitte nochmal mit git status (siehe oben), ob sich im Online-Repo etwas geändert hat.
+\item Nun kopierst du alle durch den Commit durchgeführten Änderungen aus deinem lokalen Repo in das Online-Repo. Dies geschieht mit dem Befehl \textbf{\textit{git push}}. \textbf{Beachte:} Führe diesen Schritt unmittelbar nach dem Commit durch, sodass keine Commits herumliegen. Wenn das doch passiert, enstehen verschiedene Zweige (Branches), die dann gemerged werden müssen. Mergen ist anstrengend und sprengt (in dieser Version) den Rahmen dieser Anleitung.
 \end{enumerate}
 
 \subsection{Verwaltung mit einer Windows-Shell}
