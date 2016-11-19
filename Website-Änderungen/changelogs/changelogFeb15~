@@ -1,0 +1,72 @@
+TODO
+
+/* Legende
+ * 0: erster Durchlauf @update -- done
+ * 1: zweiter Durchlauf @new reports, pages and pictures
+ */
+
+website start{
+	0: Datum aktualisieren -- done;
+	0: Reupload index.php -- done;
+}
+
+Wir über uns{
+	void;
+}
+
+Ausrüstung {
+	Sternwarte{
+		0: Hinweis, dass Spiegelteleskop durch Meade LX200 ersetzt wurde + Link zu Meade LX200 -- done;
+		0: Reupload index.php -- done;}
+	Meade LX200{
+		0: Bilder vom aufgebauten Telesekop hinzufügen -- done;
+		0: vollständiger Reupload; -- done}
+	Celestron C8{
+		1: eigene Seite hinzufügen für die Zwillinge;
+		1: vollständiger Upload;}
+	Coronado PST{
+		1: eigene Seite hinzufügen
+		1: vollständiger Upload;}
+	1: eventuell Meade LX200 und Sternwarte zusammenlegen; Spiegelteleskop extrahieren
+}
+
+Public Relation{
+	void;
+}
+
+AG-Veranstaltungen{
+	void;
+}
+
+Newsletter/RSS-Feed{
+	void;
+}
+
+Astrofotografie{
+	mondsterne15Okt11{
+		0: Lektur + korrigieren -- done;
+		0: Reupload index.php; -- done}
+}
+
+Astro-Software{
+	void;
+}
+
+Berichte{
+	1: Vortrag Sommer '14 hinzufügen;
+	1: vollständiger Upload;
+}
+
+Gästebuch{
+	void;
+}
+
+Mitgliederlogin{
+	void;
+}
+
+Impressum{
+	void;
+}
+
+
