@@ -19,10 +19,29 @@ Im Prinzip ganz normaler Text, der durch Tags formatiert wird. Tags sind zum Bei
 Zum Lernen und insbesondere zum Nachschlagen bietet sich die SelfHTML-Referenz an:\\
 \url{http://de.selfhtml.org/} \\
 Eine gute Übersicht der Farben mit zugehörigen Hex-Codes findet man unter: \\
-\url{http://tomheller.de/theholycymbal/html-farben.html} \\
+\url{http://tomheller.de/theholycymbal/html-farben.html} 
 
 \subsection{PHP}
+PHP erweitert die Möglichkeiten von HTML, sodass wir zum Beispiel gleiche Inhalte wie das Menü oder das Logo auf jeder Seite einbinden können. Bei einer Änderung im Menü, müssen wir aber nur eine Seite im Editor ändern anstatt alle Unterseiten zu öffnen. \\
+In der Regel enden unsere Seiten auf .php, weil wir auf fast jeder Seite PHP-Code verwenden. Dieser wird von \textbf{<?php und ?>} eingeschlossen. Der Rest ist normaler HTML-Code.
 
+\section{Programme}
+\subsection{Editor}
+Zum Bearbeiten der HTML- und PHP- -Dateien genügt ein einfacher Texteditor. In der Regel wird so ein Editor schon bei jeder Betriebssystem-Installation mitgeliefert. \\
+Der unter \textbf{Windows} mitgelieferte Notepad ist jedoch nur bedingt zu empfehlen, da er weder die Zeilennummern anzeigen kann, noch Syntax-Highlighting (Hervorheben der Keywords z.B. HTML-Tags, um sich besser orientieren zu können) beherrscht. Empfehlenswert ist hingegen Notepad++, zu finden unter: \\
+\url{http://www.notepad-plus-plus.org/} \\
+Der bei \textbf{Ubuntu} (und anderen Linux-Distributionen) mitgelieferte Editor gEdit ist für unsere Zwecke gut eignet.
+
+\subsection{Lokaler Server}
+Zum Testen der Veränderungen im Code lässt sich ein Server auf der eigenen Festplatte installieren, dessen Änderungen sich nicht auf die Webseite online auswirken. Dieser Server wird benötigt, weil sich PHP-Dateien (im Gegensatz zu HTML-Dateien) nicht so einfach im Browser öffnen lassen, sondern erst von einem Server interpretiert werden müssen. \\
+Das XAMPP-Projekt bietet einen einfachen Installer für Windows und Linux und liefert so eine komplette Umgebung mit Server, PHP, Datenbank u.A.: \\ \url{http://www.apachefriends.org/de/xampp.html} \\
+Die Webseite muss im Ordner „htdocs“ liegen. Dieser befindet sich nach der Standardinstallation unter \textbf{C://xampp/} (Windows) oder \textbf{/opt/lampp/} (Linux).\\
+\textbf{Zusätzlich für Linux:} Standardmäßig haben normale Nutzer keinen Schreibzugriff auf /opt. Deswegen Dateien per sudo als root bearbeiten oder die Ordnerrechte mit den folgenen Befehlen in einem Terminal ändern: \\
+\begin{itemize}
+\item \textbf{\textit{sudo chown -R <benutzername> /opt/lampp/htdocs}}
+\item \textbf{\textit{sudo chgrp -R <benutzername> /opt/lampp/htdocs>}}
+\end{itemize}
+Wenn alles funktioniert hat, könnt ihr den lokalen Server mit dem Befehl\\ \textbf{\textit{sudo /opt/lampp/lampp start}} starten.
 
 %Seitenumbruch, wenn keine volle Aufgabe mehr aufs Blatt passt.
 %\pagebreak
