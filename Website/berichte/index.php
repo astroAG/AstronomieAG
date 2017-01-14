@@ -15,6 +15,11 @@ Desweiteren finden Sie hier neuerdings auch Berichte über interne Ereignisse der
         <th>Bemerkung</th>
     </tr>
 		<tr>
+        <td>11. Jul. '16</td>
+        <td><a href="freiburg11/">Ausflug nach Freiburg 2016</a></td>
+        <td></td>
+    </tr>
+		<tr>
         <td>15. Okt. '11</td>
         <td><a href="erdfunkstelle11/">Beobachtung an der Edfunkstelle 2011</a></td>
         <td></td>
