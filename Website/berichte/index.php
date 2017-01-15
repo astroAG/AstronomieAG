@@ -16,7 +16,7 @@ Desweiteren finden Sie hier neuerdings auch Berichte über interne Ereignisse der
     </tr>
 		<tr>
         <td>11. Jul. '16</td>
-        <td><a href="freiburg11/">Ausflug nach Freiburg 2016</a></td>
+        <td><a href="freiburg16/">Ausflug nach Freiburg 2016</a></td>
         <td></td>
     </tr>
 		<tr>

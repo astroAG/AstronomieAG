@@ -14,7 +14,7 @@
 </div>
 
 <?php
-    $pictures = array( "Landschaft.jpg", "Wald.jpg", "Turm.jpg", "Bestshitever" );
+    $pictures = array( "Landschaft.jpg", "Wald.jpg", "Turm.jpg", "Bestshitever.jpg" );
     include( "../../layout/insert_picture-table.php" );
 ?>
 
