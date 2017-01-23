@@ -3,13 +3,18 @@
     include("../inhalt/davor.inc.php");
 ?>
 
-<div class="page-title">Unsere Ausrüstung</div>
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
 
-<div class="page-text">Auf den verlinkten Seiten finden Sie Informationen übere unsere Ausrüstung. Neben einer der wenigen Schulen, die überhaupt etwas zum Thema Astronomie bieten, besitzen wir nämlich außerdem alles für spannende Beobachtungs-Sessions.</div>
+<div class="page-title">Unsere Ausr&uuml;stung</div>
 
-<table>
+<div class="page-text">Auf den verlinkten Seiten finden Sie Informationen &uuml;bere unsere Ausr&uuml;stung. Neben einer der wenigen Schulen, die &uuml;berhaupt etwas zum Thema Astronomie bieten, besitzen wir n&auml;mlich au&szlig;erdem alles f&uuml;r spannende Beobachtungs-Sessions.</div>
+
+<table class="page-table">
     <tr>
-        <th>Gerät</th>
+        <th>Ger&auml;t</th>
         <th>Typ</th>
         <th>Bemerkung</th>
     </tr>
@@ -44,8 +49,8 @@
         <td>-</td>
   </tr>
   <tr>
-        <td><a href="skyscout/">Celestron SkyScout</a></td>
-        <td>Sonstiges</td>
+        <td style="padding-right: 200px;"><a href="skyscout/">Celestron SkyScout</a></td>
+        <td style="padding-right: 70px;">Sonstiges</td>
         <td>-</td>
   </tr>
 </table>

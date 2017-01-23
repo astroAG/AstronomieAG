@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
+
 <div class="page-title">Nachsitzen für den silbrigen Sternsplitter</div>
 
 <div class="page-text"><i>Die Astro-AG ist der Fixstern im Schulalltag der Liebigschule. Seit 1972 leitet der Diplom-Physiker und Astronom Werner Ziegs die Gruppe, die sich an jedem Montagabend in der schuleigenen Sternwarte trifft.</i><br/><br/>

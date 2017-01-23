@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Sunny Autosave</div>
 
 <div class="page-text">

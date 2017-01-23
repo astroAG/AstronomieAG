@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Tag der offenen T&uuml;r 2008</div>
 
 <div class="page-text">Wie jedes Jahr gibt es (unter anderem) an unserer Schule ein Tag der offenen T&uuml;r. Das bietet f&uuml;r die jetzigen 4.-Kl&auml;ssler und deren Eltern eine optimale M&ouml;glichkeit den Unterricht, die AGs und andere Dinge der Schule kennen zu lernen.

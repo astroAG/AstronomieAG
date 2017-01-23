@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Sonnenbeobachtung vor der Alten Oper</div>
 
 <div class="page-text">Lange schon hatten wir diese Idee. Doch endlich hat auch das Wetter mal einigermaßen mitgespielt. Mehr oder weniger spontan fuhren wir an einem sonnigen Juni-Samstag zur Alten Oper. Die Leute hatten dort die Gelegenheit die Sonne live zu beobachten (für viele das erste Mal).

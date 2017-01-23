@@ -3,6 +3,12 @@
     include("../inhalt/davor.inc.php");
     include("mysqlVerbinden.inc.php");
 ?>
+
+<script type="text/javascript">
+	var d = document.getElementById("d4");
+	d.className += " active";
+</script>
+
 <div class="page-title">G&auml;stebuch</div>
 
 <div class="page-section">Neuen Eintrag erstellen</div>

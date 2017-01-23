@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Photon</div>
 
 <div class="page-text">Eine Software zum Simulieren des Weges, den ein Photon benötigt, um aus dem Sonneninneren nach außen vorzudringen. Dabei können verschiedene Einstellungen getroffen werden. Gute Werte für die Schichtdicke ist ca. 5 - 20, für die Photonen ca. 1-3. 

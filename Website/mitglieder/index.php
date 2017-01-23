@@ -3,6 +3,11 @@
     include("../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d4");
+	d.className += " active";
+</script>
+
 <div class="page-title">Geschlossener Bereich für AG-Mitglieder</div>
 
 <div class="page-section">AG-Gruppen</div>

@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Besuch der franz&ouml;sischen Austauschgruppe 2011</div>
 
 <div class="page-text">Auf Anfrage von Frau Terhorst, Mathematik- und Franz&ouml;sischlehrerin der Liebigschule, hie&szlig;en wir am 9. Mai 2011 die Teilnehmer des deutsch-franz&ouml;sischen Austauschs zwischen Mulhouse und Frankfurt bei uns herzlich willkommen.

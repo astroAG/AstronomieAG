@@ -3,6 +3,11 @@
     include("../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d2");
+	d.className += " active";
+</script>
+
 <div class="page-title">Newsletter/RSS-Feed</div>
 
 <div class="page-text">Hier bieten wir Ihnen zwei bequeme Möglichkeiten, sich automatisch über Neuigkeiten  um die AG und aus der AG benachrichtigen zu lassen. So erfahren Sie zum Beispiel alles über aktuelle und geplante Veranstaltungen oder Neuigkeiten auf der Webseite. Die Ausgaben/Aktualisierungen erscheinen (je nach Anlass) unregelmäßig.

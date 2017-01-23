@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
+
 <div class="page-title">Funkkolleg "Astronomie" im hr2</div>
 
 <div class="page-text">

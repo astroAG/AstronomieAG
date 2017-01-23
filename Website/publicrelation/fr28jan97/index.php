@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
+
 <div class="page-title">Dem Kometen auf den Schweif geschaut</div>
 
 <div class="page-section">Astronomie AG der Liebigschule beobachtet Hale-Bopp</div>

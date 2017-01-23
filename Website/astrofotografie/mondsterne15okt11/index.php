@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Sterne und Mond am 15. Oktober 2011</div>
 
 <div class="page-text">Am 15. Oktober 2011 sind wir nach Usingen zur Erdfunkstelle gefahren (warum, das erfahren Sie im entsprechenden <a href="../../berichte/erdfunkstelle11/index.php">Bericht</a>). Hier sind die besten Astro-Bilder von dort.

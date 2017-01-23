@@ -3,6 +3,11 @@
     include("../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d2");
+	d.className += " active";
+</script>
+
 <div class="page-title">AG-Veranstaltungen</div>
 
 <div class="page-text">Hier finden Sie alle geplanten öffentlichen Veranstaltungen. Also zum Beispiel Beobachtungsabende, Vorträge...

@@ -3,18 +3,24 @@
     include("../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Astro-Software</div>
 
 <div class="page-text">Im Laufe der Astro-AG Jahre sind einige PC-Programme mit astronomischen/physikalischen Inhalten entstanden. Wir bieten sie hier zum kostenfreien Download an, das Copyright liegt in jedem Fall bei der Astro-AG der Liebigschule.
 </div>
 
-<table>
+<table class="page-table">
     <tr>
         <th>Name</th>
         <th>Funktion</th>
         <th>System</th>
         <th>Autor</th>
     </tr>
+	<tr style="height: 25px;"></tr>
     <tr>
         <td><a href="photon/">Photon</a></td>
         <td>Photonen Simulation im Sonneninnern</td>

@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Astrofreeze</div>
 
 <div class="page-text">Dies ist eine Bildbearbeitungssoftware zum Bearbeiten Astronomischer Aufnahmen, die ein extrem schwaches Kontrastverhältnis aufweisen. Mit einer Schwellenwertangabe, können Pixel ab einer bestimmten Helligkeit sehr verstärkt, und andere ab einer niedrigeren Helligkeit sehr verdunkelt werden. Desweiteren kann man Dunkelbilder abziehen und Hotpixelmasken erstellen.<br/>Optimal in Zusammenarbeit mit <a href="http://www.videoastronomy.org/giotto.htm" target="_blank">GIOTTO</a>, auch einem Pflicht-Programm der Astrofotografie!</div>

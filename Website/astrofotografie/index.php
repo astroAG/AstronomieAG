@@ -3,10 +3,33 @@
     include("../inhalt/davor.inc.php");
 ?>
 
-<div class="page-title">Astrofotografie</div>
-<div class="page-text">Ein gro&szlig;er Bereich der Astronomie ist die Astrofotografie. Sowohl w&auml;hrend der AG-Zeit als auch in der privaten Zeit widmen sich die Mitglieder diesem Bereich. Und die Ergebnisse k&ouml;nnen sich sehen lassen:</div>
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
 
-<table>
+
+
+<div class="page-title">Astrofotografie</div>
+<div class="page-text">Ein gro&szlig;er Bereich der Astronomie ist die Astrofotografie. Sowohl w&auml;hrend der AG-Zeit als auch in der privaten Zeit widmen sich die Mitglieder diesem Bereich. Und die Ergebni&szlig;e k&ouml;nnen sich sehen la&szlig;en:</div>
+
+<style>
+.page-table td a {
+	margin:0px;
+	list-style-type: none;
+	background-color: #222;
+	display: block;
+	color: white;
+	text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+.page-table th {
+	padding-right:0px;
+}
+</style>
+
+<table class="page-table">
     <tr>
         <th>Objekt/Ereignis</th>
         <th>verwendete Technik</th>
@@ -15,6 +38,7 @@
         <th>Bemerkung</th>
         <th>Link</th>
     </tr>
+	<tr style="height: 25px;"></tr>
     <tr>
         <td>Mond und Sterne</td>
         <td>diverse</td>
@@ -69,7 +93,7 @@
         <td>Klaus und Daniel Veltum</td>
         <td>?</td>
         <td>-</td>
-        <td><a href="alt/sombrerogalaxie_m104/sombrerogalaxie_m104.htm" target="_blank">ansehen</a></td>
+        <td><a href="sombrerogalaxiem104">ansehen</a></td>
     </tr>
     <tr>
         <td>Black Eye Galaxie M64</td>
@@ -77,7 +101,7 @@
         <td>Klaus und Daniel Veltum</td>
         <td>22. Apr. '07</td>
         <td>-</td>
-        <td><a href="alt/m64atik/m64atik.htm" target="_blank">ansehen</a></td>
+        <td><a href="m64atik">ansehen</a></td>
     </tr>
     <tr>
         <td>M64/M66</td>
@@ -85,7 +109,7 @@
         <td>Moritz Greif</td>
         <td>22. Apr. '07</td>
         <td>-</td>
-        <td><a href="alt/pictor/pictor.htm" target="_blank">ansehen</a></td>
+        <td><a href="pictor">ansehen</a></td>
     </tr>
     <tr>
         <td>Orionnebel M42</td>
@@ -93,7 +117,7 @@
         <td>Klaus und Daniel Veltum</td>
         <td>?</td>
         <td>-</td>
-        <td><a href="alt/orionnebel_m42/orionnebel_m42.html" target="_blank">ansehen</a></td>
+        <td><a href="orionnebel_m42">ansehen</a></td>
     </tr>
     <tr>
         <td>Galaxiengruppe M81</td>
@@ -101,7 +125,7 @@
         <td>Klaus und Daniel Veltum</td>
         <td>?</td>
         <td>-</td>
-        <td><a href="alt/m81/m81.htm" target="_blank">ansehen</a></td>
+        <td><a href="m81">ansehen</a></td>
     </tr>
     <tr>
         <td>Crab Nebel M1</td>
@@ -109,7 +133,7 @@
         <td>Klaus und Daniel Veltum</td>
         <td>11. M&auml;r. '07</td>
         <td>-</td>
-        <td><a href="alt/krebsnebel_m1/krebsnebel_m1.htm" target="_blank">ansehen</a></td>
+        <td><a href="krebsnebelm1">ansehen</a></td>
     </tr>
     <tr>
         <td>Ringnebel in der Leier M57/Kugelsternhaufen M13</td>
@@ -117,7 +141,7 @@
         <td>Klaus und Daniel Veltum</td>
         <td>Sommer '06</td>
         <td>-</td>
-        <td><a href="alt/Deepskybilder/Deepskybilder.htm" target="_blank">ansehen</a></td>
+        <td><a href="deepskybilder">ansehen</a></td>
     </tr>
     <tr>
         <td>Saturn</td>
@@ -125,7 +149,7 @@
         <td>Moritz Greif</td>
         <td>?</td>
         <td>-</td>
-        <td><a href="alt/saturn/saturn.htm" target="_blank">ansehen</a></td>
+        <td><a href="saturn">ansehen</a></td>
     </tr>
     <tr>
         <td>Saturn</td>
@@ -133,7 +157,7 @@
         <td>Moritz Greif</td>
         <td>'07</td>
         <td>-</td>
-        <td><a href="alt/saturnl/saturn.html" target="_blank">ansehen</a></td>
+        <td><a href="saturntou">ansehen</a></td>
     </tr>
     <tr>
         <td>Orionnebel (M42)</td>
@@ -141,7 +165,7 @@
         <td>Moritz Greif</td>
         <td>32. Dez. '06</td>
         <td>-</td>
-        <td><a href="alt/m42/m42.htm" target="_blank">ansehen</a></td>
+        <td><a href="m42">ansehen</a></td>
     </tr>
     <tr>
         <td>Ringnebel M57</td>
@@ -149,7 +173,7 @@
         <td>Moritz Greif</td>
         <td>?</td>
         <td>-</td>
-        <td><a href="alt/m57/m57.htm" target="_blank">ansehen</a></td>
+        <td><a href="m57">ansehen</a></td>
     </tr>
     <tr>
         <td>Kugelsternhaufen M13</td>
@@ -157,7 +181,7 @@
         <td>Moritz Greif</td>
         <td>9. Okt. '06</td>
         <td>-</td>
-        <td><a href="alt/m13meade/m13meade.htm" target="_blank">ansehen</a></td>
+        <td><a href="m13meade">ansehen</a></td>
     </tr>
     <tr>
         <td>Kugelsternhaufen M13</td>
@@ -165,7 +189,7 @@
         <td>Moritz Greif</td>
         <td>7. Okt. '06</td>
         <td>-</td>
-        <td><a href="alt/m13/m13.htm" target="_blank">ansehen</a></td>
+        <td><a href="m13">ansehen</a></td>
     </tr>
     <tr>
         <td>Jupiter</td>
@@ -173,7 +197,7 @@
         <td>Moritz Greif</td>
         <td>?</td>
         <td>-</td>
-        <td><a href="alt/Planetenbilder/Planetenbilder.htm" target="_blank">ansehen</a></td>
+        <td><a href="jupiter">ansehen</a></td>
     </tr>
     <tr>
         <td>Mond</td>
@@ -181,7 +205,7 @@
         <td>Moritz Greif</td>
         <td>Jun. '06</td>
         <td>-</td>
-        <td><a href="alt/Mondbilder/Mondbilder.htm" target="_blank">ansehen</a></td>
+        <td><a href="mondbilderalt">ansehen</a></td>
     </tr>  
 </table>
 

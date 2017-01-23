@@ -1,30 +1,49 @@
-body {
-    background-image : url(stars.jpg);
-    background-color : #000000;
-    background-attachment : fixed;
+body { 
+	
     font-family : Verdana, Tahoma, Arial, sans-serif;
+	margin:0;
+	background-image: url(stars2.jpeg);
+	background-size: cover;
 }
-
-
-
 #outline {
+	
     width : 52em;
     /*kommende 3 Zeilen für mittige Ausrichtung*/
     position : absolute;
+	top: 0;
     left : 50%;
     margin-left : -26em;
+	margin-top : 10px;
+	padding-left : 0px;
+	padding-right : 0px;
+	
+
 }
 #header {
     border-style : solid;
     border-color : #444444;
-    border-width : 0.1em;
+    border-width : 0em;
     border-bottom : none;
     text-align : center;
 }
+
+.parallax{
+	
+	min-height: 1080px;
+    background-image: url(stars2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+	-webkit-transition: all 0.05s ease;
+	-moz-transition: all 0.05s ease;
+	transition: all 0.05s ease;
+
+	overflow: auto;
+}
+
 #ie6header {
     border-style : solid;
     border-color : #444444;
-    border-width : 0.1em;
+    border-width : 0em;
     border-bottom : none;
     text-align : center;
 }
@@ -41,18 +60,26 @@ body {
     border-left : none;
     border-bottom : none;
     border-color : #444444;
-    border-width : 0.1em;
+    border-width : 0em;
     width : 200px;
+    padding : 5px;
 }
 #menu_content {
     border-style : solid;
     border-color : #444444;
     border-width : 0.1em;
-    min-height : 35em;
-    _height : 35em;
+    min-height : 565px;
+    _height : 565px;
+    padding : 0px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 #content {
-    margin-left : 200px;
+	margin-top : 30px;
+    margin-left : 20px;
+	margin-right : 20px;
+	margin-bottom : 10px;
+	padding : 20px;
+	padding-top : 0px;
 }
 #footer {
     margin-top : 1em;
@@ -60,8 +87,6 @@ body {
     color : #555555;
     font-size : 0.6em;
 }
-
-
 
 .menu-title {
     color : #ffffff;
@@ -83,8 +108,6 @@ body {
     margin-left : 0.5em;
 }
 
-
-
 a:link, a:visited {
     color : #4169e1;
     text-decoration: none;
@@ -94,7 +117,6 @@ a:active, a:hover {
     text-decoration: underline;
 }
 
-
 .zeitungsbild {
     float : left;
     color : #808080; 
@@ -102,7 +124,6 @@ a:active, a:hover {
     margin-right : 10px;
     margin-bottom : 10px;
 }
-
 
 .bild_mit_beschriftung {
     position : relative;
@@ -134,7 +155,6 @@ a:active, a:hover {
 }
 */
 
-
 a[href^="mailto:"] {
     padding-left: 18px;
     background: transparent url(email.png) no-repeat center left;
@@ -144,12 +164,10 @@ a[href^="http:"] {
     background: transparent url(link.png) no-repeat center left;
 }
 
-
-
 .page-title {
     font-size : 1.5em;
     color : #ffffff;
-    margin-bottom : 1.6em;
+    margin-bottom : 1.6em;  
 }
 .page-description {
 }
@@ -163,8 +181,15 @@ a[href^="http:"] {
     font-size : 0.8em;
     color : #ffffff;
 }
-
-
+.page-table{
+	display: block;
+	font-family: sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 115%;
+	width: auto;
+	margin-top: 74px;
+	
+}
 
 .aktuell {
     width : 400px;
@@ -179,8 +204,6 @@ a[href^="http:"] {
     color : #ffffff;
     margin-bottom : 0.3em
 }
-
-
 
 table {
     margin-top : 1em;
@@ -207,4 +230,72 @@ table.quelle {
     color            : #808080; 
     width            : 580px;
     font-size        : 1em;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+#nav li .dropdown {
+    float: left;
+}
+#nav li a , #nav.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover, #nav.dropdown:hover .dropbtn {
+    background-color: #4444FF;
+}
+#nav li.dropdown {
+    display: inline-block;
+}
+#nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+#nav .dropdown-content a:hover {
+	background-color: #e1e1e1
+}
+#nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+#nav .active {
+	
+	background-color: #4444FF;
+}
+
+#nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: #222;
+	border-style: solid;
+	border-color: #444444;
+	border-width: 0.1em;
+}
+#nav2 li a  {
+	display: block;
+	color: white;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav2 li a:hover{
+	background-color: #4444FF;
 }

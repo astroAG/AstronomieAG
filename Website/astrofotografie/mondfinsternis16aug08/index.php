@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Mondfinsternis '08</div>
 
 <div class="page-text">Am 16. August '08 veranstalteten wir eine öffentliche Beobachtung anlässlich der partiellen (82%) Mondfinsternis in der Liebigschule. Das sind ein paar Ergebnisse der AG-Mitglieder:<br/><br/></div>

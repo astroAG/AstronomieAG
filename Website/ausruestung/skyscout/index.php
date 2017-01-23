@@ -3,6 +3,12 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
+
+
 <div class="page-title">Celestron SkyScout</div>
 
 <div class="page-text">&Uuml;ber 36000 Objekte<sup>1</sup> mit einer Armbewegung finden? Das verspricht der <a href="http://www.celestron.com/skyscout/" target="_blank">SkyScout von Celestron</a>. Die erste Version des Ger&auml;tes kam 2006 auf den Markt und geh&ouml;rt (in der neuen Version) seit M&auml;rz 2009 auch zu unserer Ausr&uuml;stung.<br/><br/>

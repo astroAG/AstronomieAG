@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Vesta</div>
 
 <div class="page-text">Am 16. Februar 2010 bot sich bei klarem Himmel über Frankfurt ein Blick auf den Asteroid "Vesta".<br/>

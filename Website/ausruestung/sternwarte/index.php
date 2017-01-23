@@ -3,6 +3,12 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
+
+
 <div class="page-title">Sternwarte mit Newton Spiegelteleskop</div>
 
 <div class="page-text">Die Schule verfügt über ein parallaktisch montiertes Newton- Spiegelteleskop unter einer 4-m Kuppel auf dem Dach der Schule. Es ist gut für Mond, Sonne (mit Filter!) und Planetenbeobachtungen geeignet. Das Spiegelteleskop wurde im Sommer 2001 in Optik und Mechanik generalüberholt. Dadurch hat die Schule auch ein stationäres Instrument mit sehr guten optischen Eigenschaften.<br/><br/>

@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Beobachtung vor den Osterferien 2009</div>
 
 <div class="page-text">Endlich wechselt sich das schlechte Wetter auch ab und zu mal mit dem guten Wetter ab und es bietet sich die Möglichkeit zu Beobachten.<br/>Deshalb luden wir alle Interessierten am 01. Apr. '09 (nein, das ist kein Aprilscherz <img src="http://www.greensmilies.com/smile/smiley_emoticons_wink3.gif" alt="Smilie by GreenSmilies.com"/>) ein, mit uns das <a href="../../ausruestung/sternwarte/">Kuppelteleskop</a>, unser <a href="../../ausruestung/c8.jpg" target="_blank">8" Celestron</a> und das <a href="../../ausruestung/lightbridge/">Lightbridge</a> auszupacken.<br/><br/></div>

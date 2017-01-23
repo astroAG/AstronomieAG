@@ -3,6 +3,12 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
+
+
 <div class="page-title">Was sich auf der Sonne so tut</div>
 
 <div class="page-section">Sch&uuml;ler bauten vor der Alten Oper ein gro&szlig;es Teleskop f&uuml;r die Passanten auf</div>

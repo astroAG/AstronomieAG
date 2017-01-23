@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Beobachtung an der Erdfunkstelle Usingen am 15. Oktober 2011</div>
 
 <div class="page-text">Am 15. Oktober 2011 trafen sich die Astro- AG und WU Gruppen der Liebigschule bei der Erdfunkstelle in Usingen, um den Nachthimmel zu beobachten. Um 16.30 wurden wir vom Leiter der Erdfunkstelle empfangen. Dieser zeigte uns die Parkpl&auml;tze und &ouml;ffnete f&uuml;r uns das Besucherhaus. Auf dem etwa 140 ha gro&szlig;en Gel&auml;nde sind 90 Antennen verteilt.

@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Vorträge vor den Sommerferien 2007</div>
 
 <div class="page-text">Es war schon eine sehr nervenaufreibende Angelegenheit: Werden die Wolken in letzter Sekunde vielleicht doch noch aufreißen? Werden wir heute Abend noch beobachten können?

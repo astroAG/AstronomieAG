@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Unsere Neuen: Coronado und 12" Lightbridge</div>
 
 <div class="page-text">Seit Sommer 2007 haben wir in der Astro AG der Liebigschule 2 neue Instrumente, die wir durch eine großzügige Geldspende der Deutschen Bank anschaffen konnten.

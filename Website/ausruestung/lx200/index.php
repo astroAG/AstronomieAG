@@ -3,6 +3,12 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d1");
+	d.className += " active";
+</script>
+
+
 <div class="page-title">Meade LX200 10"</div>
 
 <div class="page-text">Das LX200 von Meade ist ein computergesteuertes 10 Zoll Schmitt-Cassegrain Teleskop in azimutaler Montierung. Diese kann auch zur Verwendung mit einer CCD-Kamera auf parallaktische Montierung umgebaut werden.<br/>

@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Ehemaligentreffen 2010</div>
 
 <div class="page-text">Alle F&uuml;nf Jahre veranstalten die "alten Hasen" unter den Lehrern an der Liebigschule ein Ehemaligentreffen, bei dem sich die ehemaligen Liebigsch&uuml;ler und -Lehrer nach all den Jahren wieder treffen.

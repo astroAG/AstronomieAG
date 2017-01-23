@@ -3,6 +3,11 @@
     include("../../inhalt/davor.inc.php");
 ?>
 
+<script type="text/javascript">
+	var d = document.getElementById("d3");
+	d.className += " active";
+</script>
+
 <div class="page-title">Sonne am 11. April 2011</div>
 
 <div class="page-text">Am Montag, den 11. April hatte ein AG-Mitglied die Idee, in die Schule zu kommen und Bilder mit dem <a href="../../ausruestung/meade_coronado_pst.JPG" target="_blank">Coronado PST</a> zu machen.<br/><br/>
